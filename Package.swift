@@ -26,7 +26,7 @@ let package = Package(
     targets: [
       .target(name: "AliceOnboardingBundle",
             dependencies: [
-                "AliceOnboarding",
+                "AliceOnboardingWithNFC",
                 .product(name: "OpenSSL", package: "OpenSSL")
               ]
            ),
