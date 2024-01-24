@@ -7,13 +7,13 @@ let version = "2.2.1"
 let checksum = "74e6e7be0b03949da6cc2bf57d0adc088f257a48b2c2aeb1ce975500453e7126"
 
 let package = Package(
-    name: "AliceOnboardingWithNFC",
+    name: "AliceOnboarding",
     platforms: [
         .iOS(.v9)
     ],
     products: [
         .library(
-            name: "AliceOnboardingWithNFC",
+            name: "AliceOnboarding",
             targets: ["AliceOnboardingBundle"]),
     ],
     dependencies: [
@@ -26,11 +26,11 @@ let package = Package(
     targets: [
       .target(name: "AliceOnboardingBundle",
             dependencies: [
-                "AliceOnboardingWithNFC",
+                "AliceOnboarding",
                 .product(name: "OpenSSL", package: "OpenSSL")
               ]
            ),
-        .binaryTarget(name: "AliceOnboardingWithNFC", 
+        .binaryTarget(name: "AliceOnboarding", 
                       url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboardingWithNFC-\(version).zip",
                       checksum: "\(checksum)"),
     ]
