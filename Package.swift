@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "2.2.0"
-let checksum = "2210161ac2033d7eb7ae82ca79c07ad7714efd199611b789e66faad40aa3e0d6"
+let version = "2.2.1"
+let checksum = "74e6e7be0b03949da6cc2bf57d0adc088f257a48b2c2aeb1ce975500453e7126"
 
 let package = Package(
     name: "AliceOnboardingWithNFC",
