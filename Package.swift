@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "2.2.3"
-let checksum = "ee504347b764e2167f9f0fd81cc5370c0b814a040362f5feeed83cc8f9928b93"
+let version = "2.2.4"
+let checksum = "c3d767522496b68f3d377619a88d1d3ff4d567aea6d296b31cdf195eecc02035"
 
 let package = Package(
     name: "AliceOnboarding",
